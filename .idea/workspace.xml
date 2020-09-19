@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bc8b971-8638-4a89-8cbb-d18c56c82d97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_19_144440_create_role_user_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Role.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_19_144058_create_roles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_19_144058_create_roles_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600520712199</updated>
       <workItem from="1600520713292" duration="733000" />
-      <workItem from="1600521884458" duration="4350000" />
+      <workItem from="1600521884458" duration="4966000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Login">
       <created>1600523261827</created>
@@ -191,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600523261827</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Login lession 04">
+      <created>1600526540649</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600526540649</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,16 +217,17 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Login" />
+    <MESSAGE value="Login lession 04" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login lession 04" />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="247" key="#Composer" timestamp="1600521744810">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="492" y="247" key="#Composer/0.0.1366.738@0.0.1366.738" timestamp="1600521744810" />
-    <state x="274" y="100" key="Vcs.Push.Dialog.v2" timestamp="1600523264440">
+    <state x="274" y="100" key="Vcs.Push.Dialog.v2" timestamp="1600526542785">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="274" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1600523264440" />
+    <state x="274" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1600526542785" />
   </component>
 </project>
